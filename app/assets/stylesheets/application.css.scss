@@ -1,0 +1,109 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require bootstrap.min
+ *= require_tree .
+ *= require_self
+ */
+
+.container-movie{
+	left: 16em;
+	position: relative;
+	width: 850px;
+	text-decoration:none;
+  	color:#000;
+  	background-color: rgba(238, 238, 238, 0.5);
+  	// background:rgba(33,33,33,.1);
+  	display:block;
+  	padding:1em;
+  	-moz-box-shadow:5px 5px 7px rgba(33,33,33,.7);
+  	-webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  	box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+}
+
+.container-results{
+  	background-color: rgba(238, 238, 238, 0.5);
+  	text-align: center;
+  	width: 850px;
+  	height: 550px;
+  	left: 16em;
+  	position: relative;
+  	-moz-box-shadow:5px 5px 7px rgba(33,33,33,.7);
+  	-webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  	box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+}
+
+.container-home{
+	background-color: rgba(238, 238, 238, 0.5);
+  	text-align: center;
+  	width: 850px;
+  	height: 550px;
+  	left: 16em;
+  	position: relative;
+  	-moz-box-shadow:5px 5px 7px rgba(33,33,33,.7);
+  	-webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  	box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+}
+
+.homelink{
+	position: relative;
+	left: 2em;
+	top: 1em;
+}
+
+body{
+	background-image: url("http://i.imgur.com/0RlGmeU.png");
+	background-size: cover;
+}
+
+.containerinfo{
+}
+
+ .movietitle{
+ 	left: 2em;
+ 	position: relative;
+ 	width: 800px;
+ }
+
+.movieplot{
+	left: 2em;
+ 	position: relative;
+	width: 800px;
+}
+
+ .movieinfo{
+ 	left: 2em;
+ 	position: relative;
+ 	width: 800px;
+ }
+
+.poster{
+	float: left;
+}
+
+.youtube{
+	position: relative;
+	left: 2em;
+	width: 800px;
+}
+
+.logo{
+	z-index: 1;
+	position: relative;
+	bottom: 7em;
+}
+
+.moviehome{
+	z-index: 10;
+	position: relative;
+	bottom: 15em;
+}

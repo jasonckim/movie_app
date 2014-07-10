@@ -1,0 +1,32 @@
+
+
+<div class="container-movie">
+	<div class="poster">
+		<img src= "<%= @infodata["Poster"] %>" /> 
+	</div>
+
+<div class="containerinfo">
+<div class="movietitle">
+	<h1><%= @infodata["Title"] %> (<%= @infodata["Year"] %>)</h1>
+	<p><%= @infodata["Rated"] %>, <%= @infodata["Runtime"] %> - <%= @infodata["Genre"] %></p>
+</div>
+
+<div class="movieplot">
+	<%= @infodata["Plot"] %>			
+</div>
+
+<div class="movieinfo">
+	<h4>Director</h4>
+	<p> <%= @infodata["Director"] %> </p>
+	<h4>Actors</h4>
+	<p> <%= @infodata["Actors"] %> </p>
+
+</div>
+
+<div class="youtube">
+	<h4>Watch Trailer</h4>
+	<iframe class="youtube-player" type="text/html" width="320px" height="192.5px" src="https://www.youtube.com/embed/<%=@var3%>" allowfullscreen frameborder="0">
+	</iframe>
+</div>
+</div>
+</div>

@@ -1,0 +1,14 @@
+
+	
+<div class="container-results">
+	<div class="search">
+		<h1 style="text-align:center"> Search Results:</h1>
+		
+		<% @movies.each do |movie| %>
+		<ul>
+			<li style="list-style:none; font-size:22px"><a href='/movies/<%= movie["imdbID"]%>'> <%= movie["Title"]%> <%= movie["Year"]%> </a></li>
+		</ul>
+		<% end %>
+
+	</div>
+</div>
